@@ -1,19 +1,20 @@
 .container-fluid {
 	padding: 0px 0px;
+	width:100vw;
 }
 
 .featured {
-	height: 60vh;
-	background-color: black;
+	max-height: 60vh;
+	background-color: teal;
 	color:white;
 	overflow:hidden;
 }
 
 .fill-in {
 	position: relative;
-    max-height:100%;
+	width:100%;
+    max-height:200%;
     vertical-align: middle;
-    transform: translate(0%,-15%);
 }
 
 .on-glass {
@@ -27,7 +28,45 @@
     border-radius: 0%;
 }
 
+.nav-link {
+	color:white;
+	font-size: 14px;
+}
+.nav-item {
+	background-color:teal;
+	border-color: teal;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    color:white;
+	font-size: 14px;
+}
 
 
+.nav-item:hover {
+	background-color: white;
+}
+
+.nav-link:hover{
+	color:teal;
+}
+
+.my-cards {
+	height: 50vh;
+	overflow:hidden;
+	margin:5px;
+	border-radius: 10px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.row {
+	max-width:100%;
+}
+
+.my-cards img {
+	border-radius: 10px;
+}
 
 
