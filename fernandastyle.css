@@ -1,6 +1,8 @@
 .container-fluid {
 	padding: 0px 0px;
 	width:100vw;
+
+
 }
 
 .featured {
@@ -11,6 +13,7 @@
 }
 
 .fill-in {
+
 	position: relative;
 	width:100%;
     max-height:200%;
@@ -38,7 +41,7 @@
     border-radius: 10px;
     border-style: solid;
     border-width: 1px;
-    margin: 5px;
+    margin: 10px;
     color:white;
 	font-size: 14px;
 }
@@ -58,15 +61,55 @@
 	border-radius: 10px;
 	margin-left:10px;
 	margin-right:10px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  	transition: all 0.3s ease-in-out;
+  	background-image: url(/index_img/background.svg);
+}
+
+
+.my-cards::after{
+	overflow:hidden;
+	margin:5px;
+	border-radius: 10px;
+	margin-left:10px;
+	margin-right:10px;
+	z-index:2;
+	width:100%;
+	height:100%;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	transition: opacity 0.3s ease-in-out;
+}
+
+
+.my-cards:hover{
+	transform: scale(1.2,1.2);
+}
+
+.my-cards:hover::after{
+	opacity: 1;
 }
 
 .row {
 	margin:auto;
 	max-width:80vw;
+	border-width:1px;
+	border-color:teal;
+
 }
+
+
 
 .my-cards img {
+	padding: 0px;
 	border-radius: 10px;
+	text-overflow: wrap;
 }
 
-
+.bit-moji {
+	position:absolute;
+	z-index: 2;
+	size:auto;
+	height: 200px;
+	bottom:0px;
+	right:0px;
+}
