@@ -55,6 +55,7 @@
 
 .my-cards {
 	background-color: white;
+	color:teal;
 	overflow:hidden;
 	margin:5px;
 	border-radius: 10px;
@@ -89,6 +90,7 @@
 }
 
 .row {
+	padding: 0px 10px;
 	margin:auto;
 	max-width:80vw;
 	border-width:1px;
