@@ -84,7 +84,7 @@ body {
 
 .info-container {
 	margin:auto;
-	padding:10px;
+	padding:20px;
 }
 
 .profile {
@@ -100,7 +100,12 @@ body {
 }
 
 .text-box-large {
-
+	margin-bottom:20px;
+	color: white;
+	background-color: teal;
+	padding: 10px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+	z-index: -1;
 }
 
 
@@ -121,7 +126,6 @@ body {
 
 .tile img {
 	background-color: rgba(64,224,208,0);
-	box-shadow: 0 10px 15px rgba(0,0,0,0);
 	display:grid;
 	flex-shrink: 0;
     min-width: 100%;
