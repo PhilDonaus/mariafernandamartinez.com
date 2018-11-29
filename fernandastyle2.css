@@ -9,11 +9,7 @@ body {
 	width:100%;
 }
 
-.container {
-    position: relative;
-    text-align: left;
-    color: white;
-}
+
 
 .container-fluid {
 	margin-bottom:30px;
@@ -86,6 +82,21 @@ body {
 	margin:auto;
 	padding:20px;
 }
+
+.on-top {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.on-top h5 {
+	background-color: rgba(64,224,208,0.3);
+	width:100%;
+	padding:0;
+	margin:0;
+
+}
+
 
 .profile {
 	margin:auto;
