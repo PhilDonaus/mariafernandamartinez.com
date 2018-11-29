@@ -5,7 +5,7 @@ body {
 
 .boxes {
 	margin:auto;
-	max-height:100vh;
+	height:100%;
 	width:100%;
 }
 
@@ -37,9 +37,12 @@ body {
 	padding-bottom:10px;
 }
 
-.film-card h1 {
+.film-card h1, h2 {
+
 	text-align:center;
 	color:teal;
+	position:relative;
+	padding:5px;
 }
 
 .icon-float {
@@ -62,16 +65,22 @@ body {
 .icon-float:hover{
 	transition: .5s ease;
 	transform: scale(1.25,1.25);
+	transform: rotate(20deg);
 }
 
 
 
-.icon-toolbar{
+.icon-toolbar {
 	display:flex;
 	margin:auto;
 	height:60px;
 	padding-top:5px;
 	padding-bottom:10px;
+}
+
+.info-container {
+	margin:auto;
+	padding:10px;
 }
 
 .profile {
@@ -94,7 +103,6 @@ body {
 	border-width: 10px;
 	height: 350px;
 	max-width:400px;
-	min-width: 300px;
 	display: flex;
     justify-content: center;
     align-items: center;
@@ -121,6 +129,7 @@ body {
     filter: grayscale(30%);
     z-index:2;
 
+
 }
 
 .tile::after {
@@ -134,7 +143,7 @@ body {
 	opacity:0;
 }
 
-.tile h1,h2,h3,h4,h5,p {
+.tile h5 {
 	position:absolute;
 	bottom: 5px;
 	right:5px;
