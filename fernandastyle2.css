@@ -18,7 +18,8 @@ body {
 
 .film-card {
 	height:500px;
-	width:400px;
+	min-width:350px;
+	max-width:400px;
 	background-color:white;
 	margin-top:15vh;
 	margin-left:auto;
@@ -102,7 +103,7 @@ body {
 	margin:auto;
 	width:100%;
 	height:100vh;
-	min-width:500px;
+	min-width:390px;
 }
 
 .photobook {
