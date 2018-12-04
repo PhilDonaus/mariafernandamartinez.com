@@ -3,18 +3,24 @@ body {
 	background-size: 25px;
 }
 
+.book-cover{
+	margin-top:10px;
+	margin-bottom:20px;
+	color: white;
+	background-color: teal;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+	z-index: -1;
+}
+
 .boxes {
 	margin:auto;
 	height:100%;
 	width:100%;
 }
 
-
-
 .container-fluid {
 	margin-bottom:30px;
 }
-
 
 .film-card {
 	height:500px;
@@ -27,7 +33,6 @@ body {
 	margin-bottom:auto;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
-
 
 .film-card-photo {
 	width:80%;
@@ -57,7 +62,6 @@ body {
 	filter:invert(100%);
 }
 
-
 .icon-float::after{
 	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 	transition: opacity 0.3s ease-in-out;
@@ -68,8 +72,6 @@ body {
 	transform: scale(1.25,1.25);
 	transform: rotate(360deg);
 }
-
-
 
 .icon-toolbar {
 	display:flex;
@@ -98,7 +100,6 @@ body {
 
 }
 
-
 .profile {
 	margin:auto;
 	width:100%;
@@ -111,6 +112,12 @@ body {
 	height:100%;
 }
 
+.stripe {
+	background-color:teal;
+	min-height:10px;
+	filter:invert(100%);
+}
+
 .text-box-large {
 	margin-top:10px;
 	margin-bottom:20px;
@@ -121,6 +128,12 @@ body {
 	z-index: -1;
 }
 
+.text-area {
+	padding:7px;
+	margin:auto;
+	overflow: wrap;
+	text-overflow: wrap;
+}
 
 .tile {
 	
@@ -153,8 +166,6 @@ body {
 	transform: scale(1.05,1.05);
     filter: grayscale(30%);
     z-index:2;
-
-
 }
 
 .tile::after {
@@ -174,6 +185,11 @@ body {
 	right:5px;
 	z-index:4;
 	padding:5px;
+}
+
+.business-card {
+	background-color: white;
+	
 }
 
 
