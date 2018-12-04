@@ -32,6 +32,7 @@ body {
 	margin-right:auto;
 	margin-bottom:auto;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	z-index: 10;
 }
 
 .film-card-photo {
@@ -99,6 +100,37 @@ body {
 	margin:0;
 
 }
+
+.pop {
+	position:absolute;
+	top:0px;
+	right:-50px;
+}
+
+.pop img{
+	
+	width:200px;
+	z-index: 0;
+	transform: rotate(-30deg);
+}
+
+.popper .pop{
+	visibility: hidden;
+}
+
+.popper:hover .pop{
+	visibility: visible;
+	transition: .75s ease;
+	transform: scale(1.05,1.05) rotate(30deg);
+	z-index:0;
+}
+
+.popper:hover::after .pop{
+	transition:.75 ease;
+	opacity: 0;
+}
+
+
 
 .profile {
 	margin:auto;
