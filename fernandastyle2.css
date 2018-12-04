@@ -66,7 +66,7 @@ body {
 .icon-float:hover{
 	transition: .5s ease;
 	transform: scale(1.25,1.25);
-	transform: rotate(20deg);
+	transform: rotate(360deg);
 }
 
 
@@ -175,4 +175,6 @@ body {
 	z-index:4;
 	padding:5px;
 }
+
+
 
