@@ -18,6 +18,15 @@ body {
 	width:100%;
 }
 
+.business-card {
+	background-color: white;
+	width:80vw;
+  	height: 40vw;
+  	margin-left:auto;
+  	margin-right:auto;
+  	padding:2vw;
+}
+
 .container-fluid {
 	margin-bottom:30px;
 }
@@ -103,33 +112,40 @@ body {
 
 .pop {
 	position:absolute;
-	top:0px;
-	right:-50px;
+	top:50%;
+	right: 20%;
 }
 
 .pop img{
 	
-	width:200px;
+	width:300px;
 	z-index: 0;
 	transform: rotate(-30deg);
+}
+
+.popper{
+	overflow:hidden;
 }
 
 .popper .pop{
 	visibility: hidden;
 }
 
+.popper:hover .shrinker{
+	transform: scale(0.7);
+}
+
 .popper:hover .pop{
 	visibility: visible;
 	transition: .75s ease;
-	transform: scale(1.05,1.05) rotate(30deg);
-	z-index:0;
+	transform: translateX(200px) rotate(60deg);
+	z-index:-1;
 }
 
 .popper:hover::after .pop{
 	transition:.75 ease;
 	opacity: 0;
 }
-
 
 
 .profile {
@@ -219,12 +235,4 @@ body {
 	padding:5px;
 }
 
-.business-card {
-	background-color: white;
-	width:80vw;
-  	height: 40vw;
-  	margin-left:auto;
-  	margin-right:auto;
-  	padding:2vw;
 
-}
