@@ -189,8 +189,10 @@ body {
 
 .business-card {
 	background-color: white;
-	
+	width:80vw;
+  	height: 40vw;
+  	margin-left:auto;
+  	margin-right:auto;
+  	padding:2vw;
+
 }
-
-
-
