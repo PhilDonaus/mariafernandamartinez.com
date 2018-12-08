@@ -34,7 +34,7 @@ body {
 
 .film-card {
 	height:500px;
-	min-width:350px;
+	min-width:320px;
 	max-width:400px;
 	background-color:white;
 	margin-top:15vh;
@@ -60,6 +60,15 @@ body {
 	color:teal;
 	position:relative;
 	padding:5px;
+}
+
+footer{
+	height:15px;
+	align-content:right;
+	color:teal;
+	padding:5px;
+	text-align:right;
+	font-size: 15px
 }
 
 .icon-float {
