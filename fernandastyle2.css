@@ -186,6 +186,21 @@ footer{
 	z-index: -1;
 }
 
+.text-box-video {
+	color: white;
+	background-color: salmon;
+	padding: 10px;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+	align-content:center;
+	z-index: -1;
+}
+
+.text-box-video iframe {
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:50px;
+}
+
 .text-area {
 	padding:7px;
 	margin:auto;
